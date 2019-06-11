@@ -1,0 +1,17 @@
+.headroom--unpinned {
+    transform: translateY(-100%);
+    transition: .5s all;
+}
+
+.headroom--pinned {
+    transition: .5s all;
+    transform: translateY(0);
+}
+.header--fixed{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    transition: .5s all;
+}
